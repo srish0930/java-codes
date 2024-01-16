@@ -1,0 +1,10 @@
+//demonstrate a type wrapper class auto box and unbox
+class Autobox
+{
+  public static void main (String args[])
+  {
+    Integer iOb = 100;	//auto box
+    int i = iOb;	//auto unbox
+      System.out.println (i + " " + iOb);
+  }
+}

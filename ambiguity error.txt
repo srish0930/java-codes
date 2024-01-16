@@ -1,0 +1,29 @@
+//constructor 
+// ambiguity error
+class Box {
+     double width;
+     double height;
+     double depth;
+     Box(double width, double height, double depth) {
+         width = width;
+         height = height;
+         depth = depth;
+     }
+     double volume() {
+         return width * height * depth;
+     }
+}
+
+class BoxDemo7 
+{
+    public static void main(String args[]) 
+    {
+        Box mybox1 = new Box(10,25,5);
+        Box mybox2 = new Box(20,20,15);
+        double vol;
+        vol=mybox1.volume();
+        System.out.println("volume is" +vol);
+        vol=mybox2.volume();
+        System.out.println("volume is" +vol);
+    }
+}

@@ -1,0 +1,12 @@
+// auto boxing using different types
+class Autobox4
+{
+    public static void main (String args[]) 
+    {
+    Integer iOb = 100;
+    Double dOb = 98.6;
+    dOb = dOb + iOb;
+    int i;
+    System.out.println("dOb after expression" + " " + dOb);
+    }
+}

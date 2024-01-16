@@ -1,0 +1,8 @@
+class Main
+{
+	public static void main(String[] args) {
+	    int month_days[] = {31,32,93,69,22,78,44,35,0,33,54,12,53};
+	  
+		System.out.println("April has " + month_days[3] + "days");
+	}
+}

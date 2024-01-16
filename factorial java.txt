@@ -1,0 +1,12 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    int n = 4, f=1, p;
+	    for(int i=1;i<=n;i++) {
+	        p=i;
+	        f=f*p;
+	    }
+	     System.out.println("the factorial of the given num is" +f);
+	  
+	}
+}

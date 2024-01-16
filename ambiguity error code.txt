@@ -1,0 +1,18 @@
+
+// ambiguity error
+class varargs3
+{
+    static void vaTest(int ...v)
+    {
+   System.out.println("vatest(int ...}:" + "Number of args:"+ v.length + "contents");
+   for(int x :v)
+   System.out.print(x+ "");
+   System.out.println();
+    }
+     public static void main(String args[]) 
+    {
+        vaTest(1,2,3);
+        vaTest("Testing:",10,20);
+        vaTest();
+    }
+}

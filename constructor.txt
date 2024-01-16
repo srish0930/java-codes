@@ -1,0 +1,19 @@
+class making using constructor
+
+class Box {
+    double width;
+    double depth;
+    double height;
+}
+ class srisss
+{
+	public static void main(String[] args) {
+		Box myss = new Box();
+		double vol;
+		myss.width = 10;
+		 myss.depth =15;
+		 myss.height = 20;
+		 vol = myss.width * myss.depth * myss.height;
+		 System.out.println("Volume is" + vol);
+	}
+}
